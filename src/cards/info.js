@@ -22,7 +22,8 @@ export default function CardInfo(){
                 About me
                 </Typography>
                 <Typography variant="body1" component="p">
-                Student developer with knowledge of Python (Flask), Javascript (React) and some C++. Currently interested in all things AI.
+                Developer with knowledge of Python (Flask), Javascript (React) and some C++ and Java. Graduated in Bologna in Computer Science. 
+                Currently interested in all things AI.
                 </Typography>
             </CardContent>
         </Card>

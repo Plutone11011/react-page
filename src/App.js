@@ -1,11 +1,12 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import { makeStyles } from '@material-ui/core';
+import { makeStyles, Typography } from '@material-ui/core';
 
 import BioHeader from './header';
 import CardInfo from './cards/info';
 import CardContacts from './cards/contacts';
 import Footer from './footer';
+import CardProjectAPI from './cards/gamereqsAPI';
 
 const useStyles = makeStyles((theme) => ({
   header: {
@@ -13,6 +14,10 @@ const useStyles = makeStyles((theme) => ({
   },
   App: {
     fontSize: 16
+  },
+  projects: {
+    margin:10,
+    backgroundColor: '#dae3e7'
   }
 }));
 
@@ -31,6 +36,20 @@ function App() {
           <Grid container sm={8} xs={12}>
             <Grid container item sm={6}><CardInfo /></Grid>
             <Grid container item sm={6}><CardContacts /></Grid>
+          </Grid>
+          <Grid item sm={2} xs={0}/>
+        </Grid>
+        <Grid container>
+          <Grid item sm={2} xs={0}/>
+          <Grid className={classes.projects} container direction='column' sm={8} xs={12}>
+            <Grid container item >
+              <Typography style={{'margin': 10}} color="textPrimary" variant='h3'>My Projects</Typography>
+            </Grid>
+            <Grid container item>
+              <Grid container item sm={6}><CardProjectAPI/></Grid>
+              <Grid container item sm={6}></Grid>
+            </Grid>
+ 
           </Grid>
           <Grid item sm={2} xs={0}/>
         </Grid>

@@ -47,7 +47,7 @@ export default function CardContacts(){
                         <ListItemIcon>
                             <GitHubIcon/>
                         </ListItemIcon>
-                        <Link href="https://github.com/Plutone11011" variant="body2"><ListItemText primary="https://github.com/Plutone11011"/></Link>
+                        <Link href="https://github.com/Plutone11011/GameReqsAPI" variant="body2"><ListItemText primary="https://github.com/Plutone11011"/></Link>
                     </ListItem>
                 </List>
             </CardContent>
