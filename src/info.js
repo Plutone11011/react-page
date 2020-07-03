@@ -25,7 +25,7 @@ export default function CardInfo(){
                 About me
                 </Typography>
                 <Typography variant="body1" component="p">
-                Student developer with some knowledge of Python (and Flask), Javascript (and React), C++ and Java. <br/>Currently interested in all things AI.
+                Student developer with knowledge of Python (Flask), Javascript (React) and some C++. <br/>Currently interested in all things AI.
                 </Typography>
             </CardContent>
         </Card>

@@ -2,8 +2,9 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core';
 
-import BioHeader from './header'
-import CardInfo from './info'
+import BioHeader from './header';
+import CardInfo from './info';
+import Footer from './footer';
 
 const useStyles = makeStyles((theme) => ({
   header: {
@@ -32,7 +33,7 @@ function App() {
           <Grid item sm={2} xs={0}/>
         </Grid>
       </Grid>
-      
+      <Footer/>
     </div>
   );
 }
