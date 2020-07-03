@@ -3,7 +3,8 @@ import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core';
 
 import BioHeader from './header';
-import CardInfo from './info';
+import CardInfo from './cards/info';
+import CardContacts from './cards/contacts';
 import Footer from './footer';
 
 const useStyles = makeStyles((theme) => ({
@@ -27,8 +28,9 @@ function App() {
         </Grid>
         <Grid container>
           <Grid item sm={2} xs={0}/>
-          <Grid container item sm={8} xs={12}>
-            <CardInfo />
+          <Grid container sm={8} xs={12}>
+            <Grid container item sm={6}><CardInfo /></Grid>
+            <Grid container item sm={6}><CardContacts /></Grid>
           </Grid>
           <Grid item sm={2} xs={0}/>
         </Grid>
