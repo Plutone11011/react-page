@@ -17,6 +17,10 @@ const useStyles = makeStyles((theme) => ({
       minWidth: 275,
       marginTop: 10,
       marginBottom: 10
+    },
+    title: {
+        paddingLeft: 16,
+        paddingRight: 16
     }
 }));
 
@@ -27,7 +31,7 @@ export default function CardContacts(){
     return (
         <Card className={classes.root}>
             <CardContent>
-                <Typography color="textPrimary" variant='h4' gutterBottom>
+                <Typography className={classes.title} color="textPrimary" variant='h4' gutterBottom>
                 Contacts
                 </Typography>
                 <List>

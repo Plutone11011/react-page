@@ -7,6 +7,8 @@ import CardInfo from './cards/info';
 import CardContacts from './cards/contacts';
 import Footer from './footer';
 import CardProjectAPI from './cards/gamereqsAPI';
+import CardExperiences from './cards/experiences';
+import CardAlphatube from './cards/alphatube';
 
 const useStyles = makeStyles((theme) => ({
   header: {
@@ -40,6 +42,11 @@ function App() {
           <Grid item sm={2} xs={0}/>
         </Grid>
         <Grid container>
+        <Grid item sm={2} xs={0}/>
+          <Grid container sm={8} xs={12}> <CardExperiences /> </Grid>
+        <Grid item sm={2} xs={0}/>
+        </Grid>
+        <Grid container>
           <Grid item sm={2} xs={0}/>
           <Grid className={classes.projects} container direction='column' sm={8} xs={12}>
             <Grid container item >
@@ -49,7 +56,13 @@ function App() {
               <Grid container item sm={6}><CardProjectAPI/></Grid>
               <Grid container item sm={6}></Grid>
             </Grid>
- 
+            <Grid container item >
+              <Typography style={{'margin': 10}} color="textPrimary" variant='h3'>Academic projects</Typography>
+            </Grid>
+            <Grid container item>
+              <Grid container item sm={6}><CardAlphatube/></Grid>
+              <Grid container item sm={6}></Grid>
+            </Grid>
           </Grid>
           <Grid item sm={2} xs={0}/>
         </Grid>
