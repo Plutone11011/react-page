@@ -36,8 +36,8 @@ function App() {
         <Grid container>
           <Grid item sm={2} xs={0}/>
           <Grid container sm={8} xs={12}>
-            <Grid container item sm={6}><CardInfo /></Grid>
-            <Grid container item sm={6}><CardContacts /></Grid>
+            <Grid container item md={6}><CardInfo /></Grid>
+            <Grid container item md={6}><CardContacts /></Grid>
           </Grid>
           <Grid item sm={2} xs={0}/>
         </Grid>
@@ -53,8 +53,8 @@ function App() {
               <Typography style={{'margin': 10}} color="textPrimary" variant='h3'>My Projects</Typography>
             </Grid>
             <Grid container item>
-              <Grid container item sm={6}><CardProjectAPI/></Grid>
-              <Grid container item sm={6}></Grid>
+              <Grid container item md={6}><CardProjectAPI/></Grid>
+              <Grid container item md={6}></Grid>
             </Grid>
             <Grid container item >
               <Typography style={{'margin': 10}} color="textPrimary" variant='h3'>Academic projects</Typography>

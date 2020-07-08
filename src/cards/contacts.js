@@ -15,8 +15,7 @@ import Link from '@material-ui/core/Link';
 const useStyles = makeStyles((theme) => ({
     root: {
       minWidth: 275,
-      marginTop: 10,
-      marginBottom: 10
+      margin: 10
     },
     title: {
         paddingLeft: 16,
