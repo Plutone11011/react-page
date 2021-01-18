@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-export default function CardExperiences(){
+export default function CardCourses(){
 
     const classes = useStyles()
 
@@ -26,13 +26,20 @@ export default function CardExperiences(){
         <Card className={classes.root}>
             <CardContent>
                 <Typography className={classes.title} color="textPrimary" variant='h4' gutterBottom>
-                    My Experiences
+                    Courses
                 </Typography>
                 <List>
                     <ListItem>
-                        <ListItemText primary="Internship at CINECA as web application tester. Brief experience at Technology Reply
-                        as backend developer where I managed to experiment with the cycle of API development, and some related tools
-                        like Insomnia and DbVisualizer."/>
+                        <ListItemText primary="Data manipulation with Pandas (Datacamp)"/>
+                    </ListItem>
+                    <ListItem>
+                        <ListItemText primary="Merging Dataframes with Pandas (Datacamp)"/>
+                    </ListItem>
+                    <ListItem>
+                        <ListItemText primary="Statistical thinking with Python (Datacamp)"/>
+                    </ListItem>
+                    <ListItem>
+                        <ListItemText primary="Supervised Learning with Python (Datacamp)"/>
                     </ListItem>
                 </List>
             </CardContent>

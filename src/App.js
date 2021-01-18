@@ -9,6 +9,7 @@ import Footer from './footer';
 import CardProjectAPI from './cards/gamereqsAPI';
 import CardExperiences from './cards/experiences';
 import CardAlphatube from './cards/alphatube';
+import CardCourses from './cards/courses';
 
 const useStyles = makeStyles((theme) => ({
   header: {
@@ -43,7 +44,10 @@ function App() {
         </Grid>
         <Grid container>
         <Grid item sm={2} xs={0}/>
-          <Grid container sm={8} xs={12}> <CardExperiences /> </Grid>
+          <Grid container sm={8} xs={12}>
+            <Grid container md={6}> <CardExperiences /> </Grid>
+            <Grid container md={6}> <CardCourses /> </Grid>
+          </Grid>
         <Grid item sm={2} xs={0}/>
         </Grid>
         <Grid container>
