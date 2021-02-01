@@ -30,9 +30,7 @@ export default function CardExperiences(){
                 </Typography>
                 <List>
                     <ListItem>
-                        <ListItemText primary="Internship at CINECA as web application tester. Brief experience at Technology Reply
-                        as backend developer where I managed to experiment with the cycle of API development, and some related tools
-                        like Insomnia and DbVisualizer."/>
+                        <ListItemText primary="Internship at CINECA as web application tester, developing unit tests in Mocha for an enterprise level we application"/>
                     </ListItem>
                 </List>
             </CardContent>
