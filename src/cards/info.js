@@ -23,7 +23,7 @@ export default function CardInfo(){
                 </Typography>
                 <Typography variant="body1" component="p">
                 Developer with knowledge of Python (Flask, Pandas, Scikit-learn), and some Javascript (React) and C++. Graduated in Bologna in Computer Science. 
-                Currently interested in all things AI and following an AI master in Bologna, but I also like web development, mostly backend. 
+                Currently interested in all things AI and software development. 
                 </Typography>
             </CardContent>
         </Card>
